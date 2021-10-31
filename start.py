@@ -138,7 +138,7 @@ async def Server_Status():
                     ModdedChinese = ":x: 插件"
                     ModdedEnglish = ":x: Modded"
 
-                await bot1.change_presence(activity=discord.Activity(name=f"{Players}", type=discord.ActivityType.watching))
+                await bot1.change_presence(status=discord.Status.online, activity=discord.Activity(name=f"{Players}", type=discord.ActivityType.watching))
                 embed=discord.Embed(title=f"{jdata[f'Server {Server_Number}'][0]['Status Title']}", description=f"{jdata[f'Server {Server_Number}'][0]['Server Description']}", color=0x28d252)
                 embed.set_thumbnail(url=f"{jdata[f'Server {Server_Number}'][0]['Server Icon']}")
                 embed.add_field(name="＝＝＝＝＝＝＝＝＝＝＝", value="狀態－Status", inline=False)
@@ -176,7 +176,7 @@ async def Server_Status():
                 ModdedChinese = ":warning: 插件"
                 ModdedEnglish = ":warning: Modded"
 
-                await bot1.change_presence(activity=discord.Activity(name=f"伺服器已關閉", type=discord.ActivityType.watching))
+                await bot1.change_presence(status=discord.Status.dnd, activity=discord.Activity(name=f"伺服器已關閉", type=discord.ActivityType.watching))
                 embed=discord.Embed(title=f"{jdata[f'Server {Server_Number}'][0]['Status Title']}", description=f"{jdata[f'Server {Server_Number}'][0]['Server Description']}", color=0xFF0000)
                 embed.set_thumbnail(url=f"{jdata[f'Server {Server_Number}'][0]['Server Icon']}")
                 embed.add_field(name="＝＝＝＝＝＝＝＝＝＝＝", value="狀態－Status", inline=False)
@@ -211,7 +211,7 @@ async def Server_Status():
             ModdedChinese = ":warning: 插件"
             ModdedEnglish = ":warning: Modded"
 
-            await bot1.change_presence(activity=discord.Activity(name=f"無法取得狀態", type=discord.ActivityType.watching))
+            await bot1.change_presence(status=discord.Status.dnd, activity=discord.Activity(name=f"無法取得狀態", type=discord.ActivityType.watching))
             embed=discord.Embed(title=f"{jdata[f'Server {Server_Number}'][0]['Status Title']}", description=f"{jdata[f'Server {Server_Number}'][0]['Server Description']}", color=0xFF0000)
             embed.set_thumbnail(url=f"{jdata[f'Server {Server_Number}'][0]['Server Icon']}")
             embed.add_field(name="＝＝＝＝＝＝＝＝＝＝＝", value="狀態－Status", inline=False)
@@ -271,7 +271,7 @@ async def Server_Status():
                         ModdedChinese = ":x: 插件"
                         ModdedEnglish = ":x: Modded"
 
-                    await bot2.change_presence(activity=discord.Activity(name=f"{Players}", type=discord.ActivityType.watching))
+                    await bot2.change_presence(status=discord.Status.online, activity=discord.Activity(name=f"{Players}", type=discord.ActivityType.watching))
                     embed=discord.Embed(title=f"{jdata[f'Server {Server_Number}'][0]['Status Title']}", description=f"{jdata[f'Server {Server_Number}'][0]['Server Description']}", color=0x28d252)
                     embed.set_thumbnail(url=f"{jdata[f'Server {Server_Number}'][0]['Server Icon']}")
                     embed.add_field(name="＝＝＝＝＝＝＝＝＝＝＝", value="狀態－Status", inline=False)
@@ -309,7 +309,7 @@ async def Server_Status():
                     ModdedChinese = ":warning: 插件"
                     ModdedEnglish = ":warning: Modded"
 
-                    await bot2.change_presence(activity=discord.Activity(name=f"伺服器已關閉", type=discord.ActivityType.watching))
+                    await bot2.change_presence(status=discord.Status.dnd, activity=discord.Activity(name=f"伺服器已關閉", type=discord.ActivityType.watching))
                     embed=discord.Embed(title=f"{jdata[f'Server {Server_Number}'][0]['Status Title']}", description=f"{jdata[f'Server {Server_Number}'][0]['Server Description']}", color=0xFF0000)
                     embed.set_thumbnail(url=f"{jdata[f'Server {Server_Number}'][0]['Server Icon']}")
                     embed.add_field(name="＝＝＝＝＝＝＝＝＝＝＝", value="狀態－Status", inline=False)
@@ -344,7 +344,7 @@ async def Server_Status():
                 ModdedChinese = ":warning: 插件"
                 ModdedEnglish = ":warning: Modded"
 
-                await bot2.change_presence(activity=discord.Activity(name=f"無法取得狀態", type=discord.ActivityType.watching))
+                await bot2.change_presence(status=discord.Status.dnd, activity=discord.Activity(name=f"無法取得狀態", type=discord.ActivityType.watching))
                 embed=discord.Embed(title=f"{jdata[f'Server {Server_Number}'][0]['Status Title']}", description=f"{jdata[f'Server {Server_Number}'][0]['Server Description']}", color=0xFF0000)
                 embed.set_thumbnail(url=f"{jdata[f'Server {Server_Number}'][0]['Server Icon']}")
                 embed.add_field(name="＝＝＝＝＝＝＝＝＝＝＝", value="狀態－Status", inline=False)
@@ -404,7 +404,7 @@ async def Server_Status():
                         ModdedChinese = ":x: 插件"
                         ModdedEnglish = ":x: Modded"
 
-                    await bot3.change_presence(activity=discord.Activity(name=f"{Players}", type=discord.ActivityType.watching))
+                    await bot3.change_presence(status=discord.Status.online, activity=discord.Activity(name=f"{Players}", type=discord.ActivityType.watching))
                     embed=discord.Embed(title=f"{jdata[f'Server {Server_Number}'][0]['Status Title']}", description=f"{jdata[f'Server {Server_Number}'][0]['Server Description']}", color=0x28d252)
                     embed.set_thumbnail(url=f"{jdata[f'Server {Server_Number}'][0]['Server Icon']}")
                     embed.add_field(name="＝＝＝＝＝＝＝＝＝＝＝", value="狀態－Status", inline=False)
@@ -442,7 +442,7 @@ async def Server_Status():
                     ModdedChinese = ":warning: 插件"
                     ModdedEnglish = ":warning: Modded"
 
-                    await bot3.change_presence(activity=discord.Activity(name=f"伺服器已關閉", type=discord.ActivityType.watching))
+                    await bot3.change_presence(status=discord.Status.dnd, activity=discord.Activity(name=f"伺服器已關閉", type=discord.ActivityType.watching))
                     embed=discord.Embed(title=f"{jdata[f'Server {Server_Number}'][0]['Status Title']}", description=f"{jdata[f'Server {Server_Number}'][0]['Server Description']}", color=0xFF0000)
                     embed.set_thumbnail(url=f"{jdata[f'Server {Server_Number}'][0]['Server Icon']}")
                     embed.add_field(name="＝＝＝＝＝＝＝＝＝＝＝", value="狀態－Status", inline=False)
@@ -477,7 +477,7 @@ async def Server_Status():
                 ModdedChinese = ":warning: 插件"
                 ModdedEnglish = ":warning: Modded"
 
-                await bot3.change_presence(activity=discord.Activity(name=f"無法取得狀態", type=discord.ActivityType.watching))
+                await bot3.change_presence(status=discord.Status.dnd, activity=discord.Activity(name=f"無法取得狀態", type=discord.ActivityType.watching))
                 embed=discord.Embed(title=f"{jdata[f'Server {Server_Number}'][0]['Status Title']}", description=f"{jdata[f'Server {Server_Number}'][0]['Server Description']}", color=0xFF0000)
                 embed.set_thumbnail(url=f"{jdata[f'Server {Server_Number}'][0]['Server Icon']}")
                 embed.add_field(name="＝＝＝＝＝＝＝＝＝＝＝", value="狀態－Status", inline=False)
