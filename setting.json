@@ -1,18 +1,17 @@
 {
+    "Warning": "If you turn off robot No. 2 and robot No. 3 will also be shut down.",
     "API Token": "yC7uud%2F7uuQNNNLJOOZmYRxS",
     "Account ID": "19783",
     "Server 1": [
         {
-            "Switch": true,
             "Discord Bot Token": "Nzg5ODA5OTI5NzYyMjQyNTgw.X93d0Q.TmYiOF9f2mDDqjWxBTcPP6Zc2Yc",
             "Server Codename": 0,
             "Status Guild": 892799334289145896,
             "Status Channel": 903951479252062238,
             "Status Message": 904188600969723984,
             "Server Icon": "https://cdn.discordapp.com/icons/892799334289145896/897ce4609c73b5431471ce6b24593b7b.png?size=4096",
-            "Server Name": "\u5730\u4e0b\u8857 UDGC \u4f3a\u670d\u5668",
-            "Server Number": "\u300a Server #1 \u300b",
-            "Server Description": "[For Release Server]"
+            "Status Title": "\u5730\u4e0b\u8857 UDGC \u4f3a\u670d\u5668 \u300a Server #1 \u300b 實時狀態",
+            "Server Description": "Underground City Live Status"
         }
     ],
     "Server 2": [
@@ -24,9 +23,8 @@
             "Status Channel": 903951505512616007,
             "Status Message": 904198872602144788,
             "Server Icon": "https://cdn.discordapp.com/icons/892799334289145896/897ce4609c73b5431471ce6b24593b7b.png?size=4096",
-            "Server Name": "\u5730\u4e0b\u8857 UDGC \u4f3a\u670d\u5668",
-            "Server Number": "\u300a Server #2 \u300b",
-            "Server Description": "[For Release Server]"
+            "Status Title": "\u5730\u4e0b\u8857 UDGC \u4f3a\u670d\u5668 \u300a Server #2 \u300b 實時狀態",
+            "Server Description": "Underground City Live Status"
         }
     ],
     "Server 3": [
@@ -38,9 +36,8 @@
             "Status Channel": 903951533866098698,
             "Status Message": 904198890771869717,
             "Server Icon": "https://cdn.discordapp.com/icons/892799334289145896/897ce4609c73b5431471ce6b24593b7b.png?size=4096",
-            "Server Name": "\u5730\u4e0b\u8857 UDGC \u4f3a\u670d\u5668",
-            "Server Number": "\u300a Server #3 \u300b",
-            "Server Description": "[For Release Server]"
+            "Status Title": "\u5730\u4e0b\u8857 UDGC \u4f3a\u670d\u5668 \u300a Server #3 \u300b 實時狀態",
+            "Server Description": "Underground City Live Status"
         }
     ],
     "Do not change this": {
