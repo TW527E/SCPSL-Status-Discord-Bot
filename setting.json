@@ -1,3 +1,81 @@
 {
-    "Token": "Nzg5ODA5OTY0NjkyNjY4NDU2.X93d2Q.tZWbLjX2VLY5jJoGKeoW9bcp5DA"
+    "API Token": "yC7uud%2F7uuQNNNLJOOZmYRxS",
+    "Account ID": "19783",
+    "Server 1": [
+        {
+            "Switch": true,
+            "Discord Bot Token": "Nzg5ODA5OTI5NzYyMjQyNTgw.X93d0Q.TmYiOF9f2mDDqjWxBTcPP6Zc2Yc",
+            "Server Codename": 0,
+            "Status Guild": 892799334289145896,
+            "Status Channel": 903951479252062238,
+            "Status Message": 904188600969723984,
+            "Server Icon": "https://cdn.discordapp.com/icons/892799334289145896/897ce4609c73b5431471ce6b24593b7b.png?size=4096",
+            "Server Name": "\u5730\u4e0b\u8857 UDGC \u4f3a\u670d\u5668",
+            "Server Number": "\u300a Server #1 \u300b",
+            "Server Description": "[For Release Server]"
+        }
+    ],
+    "Server 2": [
+        {
+            "Switch": true,
+            "Discord Bot Token": "Nzg5ODA5OTY0NjkyNjY4NDU2.X93d2Q.tZWbLjX2VLY5jJoGKeoW9bcp5DA",
+            "Server Codename": 1,
+            "Status Guild": 892799334289145896,
+            "Status Channel": 903951505512616007,
+            "Status Message": 904198872602144788,
+            "Server Icon": "https://cdn.discordapp.com/icons/892799334289145896/897ce4609c73b5431471ce6b24593b7b.png?size=4096",
+            "Server Name": "\u5730\u4e0b\u8857 UDGC \u4f3a\u670d\u5668",
+            "Server Number": "\u300a Server #2 \u300b",
+            "Server Description": "[For Release Server]"
+        }
+    ],
+    "Server 3": [
+        {
+            "Switch": true,
+            "Discord Bot Token": "Nzg5ODEwMzU2NzA4MzExMDUw.X93eNw.5dDvMsviXYsRurr8zlxEVTlpqUk",
+            "Server Codename": 2,
+            "Status Guild": 892799334289145896,
+            "Status Channel": 903951533866098698,
+            "Status Message": 904198890771869717,
+            "Server Icon": "https://cdn.discordapp.com/icons/892799334289145896/897ce4609c73b5431471ce6b24593b7b.png?size=4096",
+            "Server Name": "\u5730\u4e0b\u8857 UDGC \u4f3a\u670d\u5668",
+            "Server Number": "\u300a Server #3 \u300b",
+            "Server Description": "[For Release Server]"
+        }
+    ],
+    "Do not change this": {
+        "Success": true,
+        "Cooldown": 24,
+        "Servers": [
+            {
+                "ID": 48905,
+                "Port": 7777,
+                "Online": true,
+                "LastOnline": "2021-10-31",
+                "Players": "0/35",
+                "PlayersList": [],
+                "Info": "W0hLXSA8Y29sb3I9IzE5OWJmZj7lnLDkuIvooZc8L2NvbG9yPu+9nOaaq+eCuue0lOa3qOacjSMx772c54Sh5Y+L5YK3RkYKPGNvbG9yPSNiNjc1ZmY+RGlzY29yZDwvY29sb3I+OiA8Y29sb3I9IzE5OWJmZj5kaXNjb3JkLmdnL3ZDVHRLYXpwWno8L2NvbG9yPjxjb2xvcj0jMDAwMDAwMDA+PHNpemU9MT5FeGlsZWQgMy4zLjE8L3NpemU+PC9jb2xvcj4=",
+                "Version": "11.0.3",
+                "Pastebin": "2ugXuz6e",
+                "FF": false,
+                "WL": false,
+                "Modded": true,
+                "Mods": 0,
+                "Suppress": 0,
+                "AutoSuppress": false
+            },
+            {
+                "ID": 49117,
+                "Port": 7778,
+                "Online": false,
+                "LastOnline": "2021-10-30"
+            },
+            {
+                "ID": 49118,
+                "Port": 7779,
+                "Online": false,
+                "LastOnline": "2021-10-30"
+            }
+        ]
+    }
 }
