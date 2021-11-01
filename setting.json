@@ -1,5 +1,4 @@
 {
-    "Warning": "If you turn off robot No. 2 and robot No. 3 will also be shut down.",
     "API Token": "yC7uud%2F7uuQNNNLJOOZmYRxS",
     "Account ID": "19783",
     "Server 1": [
@@ -8,9 +7,9 @@
             "Server Codename": 0,
             "Status Guild": 892799334289145896,
             "Status Channel": 903951479252062238,
-            "Status Message": 904188600969723984,
+            "Status Message": 904372374554681394,
             "Server Icon": "https://cdn.discordapp.com/icons/892799334289145896/897ce4609c73b5431471ce6b24593b7b.png?size=4096",
-            "Status Title": "\u5730\u4e0b\u8857 UDGC \u4f3a\u670d\u5668 \u300a Server #1 \u300b 實時狀態",
+            "Status Title": "\u5730\u4e0b\u8857 UDGC \u4f3a\u670d\u5668 \u300a Server #1 \u300b \u5be6\u6642\u72c0\u614b",
             "Server Description": "Underground City Live Status"
         }
     ],
@@ -23,7 +22,7 @@
             "Status Channel": 903951505512616007,
             "Status Message": 904198872602144788,
             "Server Icon": "https://cdn.discordapp.com/icons/892799334289145896/897ce4609c73b5431471ce6b24593b7b.png?size=4096",
-            "Status Title": "\u5730\u4e0b\u8857 UDGC \u4f3a\u670d\u5668 \u300a Server #2 \u300b 實時狀態",
+            "Status Title": "\u5730\u4e0b\u8857 UDGC \u4f3a\u670d\u5668 \u300a Server #2 \u300b \u5be6\u6642\u72c0\u614b",
             "Server Description": "Underground City Live Status"
         }
     ],
@@ -36,7 +35,7 @@
             "Status Channel": 903951533866098698,
             "Status Message": 904198890771869717,
             "Server Icon": "https://cdn.discordapp.com/icons/892799334289145896/897ce4609c73b5431471ce6b24593b7b.png?size=4096",
-            "Status Title": "\u5730\u4e0b\u8857 UDGC \u4f3a\u670d\u5668 \u300a Server #3 \u300b 實時狀態",
+            "Status Title": "\u5730\u4e0b\u8857 UDGC \u4f3a\u670d\u5668 \u300a Server #3 \u300b \u5be6\u6642\u72c0\u614b",
             "Server Description": "Underground City Live Status"
         }
     ],
@@ -48,10 +47,10 @@
                 "ID": 48905,
                 "Port": 7777,
                 "Online": true,
-                "LastOnline": "2021-10-31",
+                "LastOnline": "2021-11-01",
                 "Players": "0/35",
                 "PlayersList": [],
-                "Info": "W0hLXSA8Y29sb3I9IzE5OWJmZj7lnLDkuIvooZc8L2NvbG9yPu+9nOaaq+eCuue0lOa3qOacjSMx772c54Sh5Y+L5YK3RkYKPGNvbG9yPSNiNjc1ZmY+RGlzY29yZDwvY29sb3I+OiA8Y29sb3I9IzE5OWJmZj5kaXNjb3JkLmdnL3ZDVHRLYXpwWno8L2NvbG9yPjxjb2xvcj0jMDAwMDAwMDA+PHNpemU9MT5FeGlsZWQgMy4zLjE8L3NpemU+PC9jb2xvcj4=",
+                "Info": "W0hLXSA8Y29sb3I9I2Q2ZmFmZj7lnLDkuIvooZfkvLrmnI3lmaggIzHvvZw8L2NvbG9yPjxjb2xvcj0jNTRlOGZmPmQ8L2NvbG9yPjxjb2xvcj0jMDBlMGZmPmk8L2NvbG9yPjxjb2xvcj0jMDBkN2ZmPnM8L2NvbG9yPjxjb2xvcj0jMDBjZWZmPmM8L2NvbG9yPjxjb2xvcj0jMDBjNGZmPm88L2NvbG9yPjxjb2xvcj0jMDBiYmZmPnI8L2NvbG9yPjxjb2xvcj0jMDBiM2ZmPmQuPC9jb2xvcj48Y29sb3I9IzAwYjBmZj5nPC9jb2xvcj48Y29sb3I9IzAwYTZmZj5nLzwvY29sb3I+PGNvbG9yPSMwMDlhZmY+djwvY29sb3I+PGNvbG9yPSMwMDhlZmY+QzwvY29sb3I+PGNvbG9yPSMwMDg0ZmY+VDwvY29sb3I+PGNvbG9yPSMwMDgyZmY+dDwvY29sb3I+PGNvbG9yPSMwMDc0ZmY+SzwvY29sb3I+PGNvbG9yPSMwMDY0ZmY+YTwvY29sb3I+PGNvbG9yPSMwMDUyZmY+ejwvY29sb3I+PGNvbG9yPSMwMDQ0ZmY+cDwvY29sb3I+PGNvbG9yPSMwMDNjZmY+WjwvY29sb3I+PGNvbG9yPSMwMDMzZmY+ejwvY29sb3I+PGNvbG9yPSMwMDAwMDAwMD48c2l6ZT0xPkV4aWxlZCAzLjMuMTwvc2l6ZT48L2NvbG9yPg==",
                 "Version": "11.0.3",
                 "Pastebin": "2ugXuz6e",
                 "FF": false,
