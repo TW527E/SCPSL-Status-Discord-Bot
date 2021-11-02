@@ -4,6 +4,7 @@ import requests
 import discord  #導入Discord.py的專案
 from discord.ext import commands  #導入指令
 import json, asyncio
+import keep_alive
 from datetime import datetime,timezone,timedelta
 intents = discord.Intents.all()
 
@@ -277,4 +278,5 @@ async def Server_Status():
         else:
             await asyncio.sleep(24)
         
+keep_alive.keep_alive()
 bot1.run(jdata['Server 1'][0]['Discord Bot Token'])
