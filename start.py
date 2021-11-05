@@ -11,7 +11,7 @@ intents = discord.Intents.all()
 with open('setting.json', 'r', encoding='utf8') as jfile:
     jdata = json.load(jfile)
 
-bot1 = commands.Bot(command_prefix='\|/1', intents = intents)
+bot1 = commands.Bot(command_prefix='\\|/', intents = intents)
 
 @bot1.event
 async def on_ready():
@@ -87,6 +87,7 @@ async def Server_Status():
         owner = bot1.get_user(356361726427660288)
         response = requests.get(f"https://api.scpslgame.com/serverinfo.php?key={jdata['API Token']}&id={jdata['Account ID']}&lo=true&players=true&list=true&info=true&pastebin=true&version=true&flags=true&nicknames=true&online=true").json()
         jdata['Do not change this'] = response
+        jdata["Last Update Time"] = dt2.strftime('%Y-%m-%d %H:%M:%S')
         with open('setting.json', 'w', encoding='utf8') as f:
             json.dump(jdata, f, indent=4)
         

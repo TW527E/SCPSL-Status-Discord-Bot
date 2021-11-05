@@ -13,50 +13,175 @@
             "Server Icon": "https://cdn.discordapp.com/icons/892799334289145896/897ce4609c73b5431471ce6b24593b7b.png?size=4096",
             "Message Title": "\u5730\u4e0b\u8857 UDGC \u4f3a\u670d\u5668 \u300a Server #1 \u300b \u5be6\u6642\u72c0\u614b",
             "Server Description": "Underground City Live Status",
-            "Last Updated": "此資料上次更新時間 %Time% • Last updated %Time% (UTC+8)",
-            "Separate line": "＝＝＝＝＝＝＝＝＝＝＝",
-            "Status": [true ,"狀態－Status", "狀態", "Status"],
-            "Status Started": ["已正常啟動", "Server started"],
-            "Status Closed": ["伺服器已關閉", "Server is down"],
-            "Status Warning": ["無法取得狀態", "The status cannot be obtained"],
-            "Port": [true ,"伺服器連接埠－Server Port", "伺服器連接埠", "Server Port"],
-            "Port Started": ["%Port%", "%Port%"],
-            "Port Closed": ["%Port%", "%Port%"],
-            "Port Warning": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"],
-            "Players": [true ,"目前人數－Players", "目前人數", "Players"],
-            "Players Started": ["%Players%", "%Players%"],
-            "Players Closed": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"],
-            "Players Warning": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"],
-            "Version": [true ,"版本－Version", "版本", "Version"],
-            "Version Started": ["%Version%", "%Version%"],
-            "Version Closed": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"],
-            "Version Warning": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"],
-            "Pastebin": [true ,"Pastebin", "Pastebin 連結", "Pastebin Link"],
-            "Pastebin Started": ["[%Pastebin%](https://pastebin.com/%Pastebin%)", "[%Pastebin%](https://pastebin.com/%Pastebin%)"],
-            "Pastebin Closed": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"],
-            "Pastebin Warning": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"],
-            "Infomation": [true ,"詳細信息－Infomation", "詳細信息", "Infomation"],
-            "Infomation Started": ["%FriendlyFire%｜%Whitelist%｜%Modded%", "%FriendlyFire%｜%Whitelist%｜%Modded%"],
-            "Infomation Closed": ["%FriendlyFire%｜%Whitelist%｜%Modded%", "%FriendlyFire%｜%Whitelist%｜%Modded%"],
-            "Infomation Warning": ["%FriendlyFire%｜%Whitelist%｜%Modded%", "%FriendlyFire%｜%Whitelist%｜%Modded%"],
-            "Friendly Fire On": [":o: 同隊傷害", ":o: Friendly Fire"],
-            "Friendly Fire Off": [":x: 同隊傷害", ":x: Friendly Fire"],
-            "Friendly Fire Warning": [":warning: 同隊傷害", ":warning: Friendly Fire"],
-            "Whitelist On": [":o: 白名單", ":o: Whitelist"],
-            "Whitelist Off": [":x: 白名單", ":x: Whitelist"],
-            "Whitelist Warning": [":warning: 白名單", ":warning: Whitelist"],
-            "Modded On": [":o: 插件", ":o: Modded"],
-            "Modded Off": [":x: 插件", ":x: Modded"],
-            "Modded Warning": [":warning: 插件", ":warning: Modded"],
-            "LastOnline": [true ,"最後上線日期－Last Online Date", "最後上線日期", "Last Online Date"],
-            "LastOnline Started": ["%LastOnline%", "%LastOnline%"],
-            "LastOnline Closed": ["%LastOnline%", "%LastOnline%"],
-            "LastOnline Warning": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"]
+            "Last Updated": "\u6b64\u8cc7\u6599\u4e0a\u6b21\u66f4\u65b0\u6642\u9593 %Time% \u2022 Last updated %Time% (UTC+8)",
+            "Separate line": "\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d",
+            "Status": [
+                true,
+                "\u72c0\u614b\uff0dStatus",
+                "\u72c0\u614b",
+                "Status"
+            ],
+            "Status Started": [
+                "\u5df2\u6b63\u5e38\u555f\u52d5",
+                "Server started"
+            ],
+            "Status Closed": [
+                "\u4f3a\u670d\u5668\u5df2\u95dc\u9589",
+                "Server is down"
+            ],
+            "Status Warning": [
+                "\u7121\u6cd5\u53d6\u5f97\u72c0\u614b",
+                "The status cannot be obtained"
+            ],
+            "Port": [
+                true,
+                "\u4f3a\u670d\u5668\u9023\u63a5\u57e0\uff0dServer Port",
+                "\u4f3a\u670d\u5668\u9023\u63a5\u57e0",
+                "Server Port"
+            ],
+            "Port Started": [
+                "%Port%",
+                "%Port%"
+            ],
+            "Port Closed": [
+                "%Port%",
+                "%Port%"
+            ],
+            "Port Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Players": [
+                true,
+                "\u76ee\u524d\u4eba\u6578\uff0dPlayers",
+                "\u76ee\u524d\u4eba\u6578",
+                "Players"
+            ],
+            "Players Started": [
+                "%Players%",
+                "%Players%"
+            ],
+            "Players Closed": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Players Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Version": [
+                true,
+                "\u7248\u672c\uff0dVersion",
+                "\u7248\u672c",
+                "Version"
+            ],
+            "Version Started": [
+                "%Version%",
+                "%Version%"
+            ],
+            "Version Closed": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Version Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Pastebin": [
+                true,
+                "Pastebin",
+                "Pastebin \u9023\u7d50",
+                "Pastebin Link"
+            ],
+            "Pastebin Started": [
+                "[%Pastebin%](https://pastebin.com/%Pastebin%)",
+                "[%Pastebin%](https://pastebin.com/%Pastebin%)"
+            ],
+            "Pastebin Closed": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Pastebin Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Infomation": [
+                true,
+                "\u8a73\u7d30\u4fe1\u606f\uff0dInfomation",
+                "\u8a73\u7d30\u4fe1\u606f",
+                "Infomation"
+            ],
+            "Infomation Started": [
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%",
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%"
+            ],
+            "Infomation Closed": [
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%",
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%"
+            ],
+            "Infomation Warning": [
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%",
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%"
+            ],
+            "Friendly Fire On": [
+                ":o: \u540c\u968a\u50b7\u5bb3",
+                ":o: Friendly Fire"
+            ],
+            "Friendly Fire Off": [
+                ":x: \u540c\u968a\u50b7\u5bb3",
+                ":x: Friendly Fire"
+            ],
+            "Friendly Fire Warning": [
+                ":warning: \u540c\u968a\u50b7\u5bb3",
+                ":warning: Friendly Fire"
+            ],
+            "Whitelist On": [
+                ":o: \u767d\u540d\u55ae",
+                ":o: Whitelist"
+            ],
+            "Whitelist Off": [
+                ":x: \u767d\u540d\u55ae",
+                ":x: Whitelist"
+            ],
+            "Whitelist Warning": [
+                ":warning: \u767d\u540d\u55ae",
+                ":warning: Whitelist"
+            ],
+            "Modded On": [
+                ":o: \u63d2\u4ef6",
+                ":o: Modded"
+            ],
+            "Modded Off": [
+                ":x: \u63d2\u4ef6",
+                ":x: Modded"
+            ],
+            "Modded Warning": [
+                ":warning: \u63d2\u4ef6",
+                ":warning: Modded"
+            ],
+            "LastOnline": [
+                true,
+                "\u6700\u5f8c\u4e0a\u7dda\u65e5\u671f\uff0dLast Online Date",
+                "\u6700\u5f8c\u4e0a\u7dda\u65e5\u671f",
+                "Last Online Date"
+            ],
+            "LastOnline Started": [
+                "%LastOnline%",
+                "%LastOnline%"
+            ],
+            "LastOnline Closed": [
+                "%LastOnline%",
+                "%LastOnline%"
+            ],
+            "LastOnline Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ]
         },
         {
             "Bot Status Started": "%Players%",
-            "Bot Status Closed": "＼｜／伺服器已關閉＼｜／",
-            "Bot Status Warning": "＼｜／無法獲取狀態＼｜／"
+            "Bot Status Closed": "\uff3c\uff5c\uff0f\u4f3a\u670d\u5668\u5df2\u95dc\u9589\uff3c\uff5c\uff0f",
+            "Bot Status Warning": "\uff3c\uff5c\uff0f\u7121\u6cd5\u7372\u53d6\u72c0\u614b\uff3c\uff5c\uff0f"
         }
     ],
     "Server 2": [
@@ -71,50 +196,175 @@
             "Server Icon": "https://cdn.discordapp.com/icons/892799334289145896/897ce4609c73b5431471ce6b24593b7b.png?size=4096",
             "Message Title": "\u5730\u4e0b\u8857 UDGC \u4f3a\u670d\u5668 \u300a Server #2 \u300b \u5be6\u6642\u72c0\u614b",
             "Server Description": "Underground City Live Status",
-            "Last Updated": "此資料上次更新時間 %Time% • Last updated %Time% (UTC+8)",
-            "Separate line": "＝＝＝＝＝＝＝＝＝＝＝",
-            "Status": [true ,"狀態－Status", "狀態", "Status"],
-            "Status Started": ["已正常啟動", "Server started"],
-            "Status Closed": ["伺服器已關閉", "Server is down"],
-            "Status Warning": ["無法取得狀態", "The status cannot be obtained"],
-            "Port": [true ,"伺服器連接埠－Server Port", "伺服器連接埠", "Server Port"],
-            "Port Started": ["%Port%", "%Port%"],
-            "Port Closed": ["%Port%", "%Port%"],
-            "Port Warning": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"],
-            "Players": [true ,"目前人數－Players", "目前人數", "Players"],
-            "Players Started": ["%Players%", "%Players%"],
-            "Players Closed": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"],
-            "Players Warning": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"],
-            "Version": [true ,"版本－Version", "版本", "Version"],
-            "Version Started": ["%Version%", "%Version%"],
-            "Version Closed": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"],
-            "Version Warning": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"],
-            "Pastebin": [true ,"Pastebin", "Pastebin 連結", "Pastebin Link"],
-            "Pastebin Started": ["[%Pastebin%](https://pastebin.com/%Pastebin%)", "[%Pastebin%](https://pastebin.com/%Pastebin%)"],
-            "Pastebin Closed": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"],
-            "Pastebin Warning": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"],
-            "Infomation": [true ,"詳細信息－Infomation", "詳細信息", "Infomation"],
-            "Infomation Started": ["%FriendlyFire%｜%Whitelist%｜%Modded%", "%FriendlyFire%｜%Whitelist%｜%Modded%"],
-            "Infomation Closed": ["%FriendlyFire%｜%Whitelist%｜%Modded%", "%FriendlyFire%｜%Whitelist%｜%Modded%"],
-            "Infomation Warning": ["%FriendlyFire%｜%Whitelist%｜%Modded%", "%FriendlyFire%｜%Whitelist%｜%Modded%"],
-            "Friendly Fire On": [":o: 同隊傷害", ":o: Friendly Fire"],
-            "Friendly Fire Off": [":x: 同隊傷害", ":x: Friendly Fire"],
-            "Friendly Fire Warning": [":warning: 同隊傷害", ":warning: Friendly Fire"],
-            "Whitelist On": [":o: 白名單", ":o: Whitelist"],
-            "Whitelist Off": [":x: 白名單", ":x: Whitelist"],
-            "Whitelist Warning": [":warning: 白名單", ":warning: Whitelist"],
-            "Modded On": [":o: 插件", ":o: Modded"],
-            "Modded Off": [":x: 插件", ":x: Modded"],
-            "Modded Warning": [":warning: 插件", ":warning: Modded"],
-            "LastOnline": [true ,"最後上線日期－Last Online Date", "最後上線日期", "Last Online Date"],
-            "LastOnline Started": ["%LastOnline%", "%LastOnline%"],
-            "LastOnline Closed": ["%LastOnline%", "%LastOnline%"],
-            "LastOnline Warning": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"]
+            "Last Updated": "\u6b64\u8cc7\u6599\u4e0a\u6b21\u66f4\u65b0\u6642\u9593 %Time% \u2022 Last updated %Time% (UTC+8)",
+            "Separate line": "\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d",
+            "Status": [
+                true,
+                "\u72c0\u614b\uff0dStatus",
+                "\u72c0\u614b",
+                "Status"
+            ],
+            "Status Started": [
+                "\u5df2\u6b63\u5e38\u555f\u52d5",
+                "Server started"
+            ],
+            "Status Closed": [
+                "\u4f3a\u670d\u5668\u5df2\u95dc\u9589",
+                "Server is down"
+            ],
+            "Status Warning": [
+                "\u7121\u6cd5\u53d6\u5f97\u72c0\u614b",
+                "The status cannot be obtained"
+            ],
+            "Port": [
+                true,
+                "\u4f3a\u670d\u5668\u9023\u63a5\u57e0\uff0dServer Port",
+                "\u4f3a\u670d\u5668\u9023\u63a5\u57e0",
+                "Server Port"
+            ],
+            "Port Started": [
+                "%Port%",
+                "%Port%"
+            ],
+            "Port Closed": [
+                "%Port%",
+                "%Port%"
+            ],
+            "Port Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Players": [
+                true,
+                "\u76ee\u524d\u4eba\u6578\uff0dPlayers",
+                "\u76ee\u524d\u4eba\u6578",
+                "Players"
+            ],
+            "Players Started": [
+                "%Players%",
+                "%Players%"
+            ],
+            "Players Closed": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Players Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Version": [
+                true,
+                "\u7248\u672c\uff0dVersion",
+                "\u7248\u672c",
+                "Version"
+            ],
+            "Version Started": [
+                "%Version%",
+                "%Version%"
+            ],
+            "Version Closed": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Version Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Pastebin": [
+                true,
+                "Pastebin",
+                "Pastebin \u9023\u7d50",
+                "Pastebin Link"
+            ],
+            "Pastebin Started": [
+                "[%Pastebin%](https://pastebin.com/%Pastebin%)",
+                "[%Pastebin%](https://pastebin.com/%Pastebin%)"
+            ],
+            "Pastebin Closed": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Pastebin Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Infomation": [
+                true,
+                "\u8a73\u7d30\u4fe1\u606f\uff0dInfomation",
+                "\u8a73\u7d30\u4fe1\u606f",
+                "Infomation"
+            ],
+            "Infomation Started": [
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%",
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%"
+            ],
+            "Infomation Closed": [
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%",
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%"
+            ],
+            "Infomation Warning": [
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%",
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%"
+            ],
+            "Friendly Fire On": [
+                ":o: \u540c\u968a\u50b7\u5bb3",
+                ":o: Friendly Fire"
+            ],
+            "Friendly Fire Off": [
+                ":x: \u540c\u968a\u50b7\u5bb3",
+                ":x: Friendly Fire"
+            ],
+            "Friendly Fire Warning": [
+                ":warning: \u540c\u968a\u50b7\u5bb3",
+                ":warning: Friendly Fire"
+            ],
+            "Whitelist On": [
+                ":o: \u767d\u540d\u55ae",
+                ":o: Whitelist"
+            ],
+            "Whitelist Off": [
+                ":x: \u767d\u540d\u55ae",
+                ":x: Whitelist"
+            ],
+            "Whitelist Warning": [
+                ":warning: \u767d\u540d\u55ae",
+                ":warning: Whitelist"
+            ],
+            "Modded On": [
+                ":o: \u63d2\u4ef6",
+                ":o: Modded"
+            ],
+            "Modded Off": [
+                ":x: \u63d2\u4ef6",
+                ":x: Modded"
+            ],
+            "Modded Warning": [
+                ":warning: \u63d2\u4ef6",
+                ":warning: Modded"
+            ],
+            "LastOnline": [
+                true,
+                "\u6700\u5f8c\u4e0a\u7dda\u65e5\u671f\uff0dLast Online Date",
+                "\u6700\u5f8c\u4e0a\u7dda\u65e5\u671f",
+                "Last Online Date"
+            ],
+            "LastOnline Started": [
+                "%LastOnline%",
+                "%LastOnline%"
+            ],
+            "LastOnline Closed": [
+                "%LastOnline%",
+                "%LastOnline%"
+            ],
+            "LastOnline Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ]
         },
         {
             "Bot Status Started": "%Players%",
-            "Bot Status Closed": "＼｜／伺服器已關閉＼｜／",
-            "Bot Status Warning": "＼｜／無法獲取狀態＼｜／"
+            "Bot Status Closed": "\uff3c\uff5c\uff0f\u4f3a\u670d\u5668\u5df2\u95dc\u9589\uff3c\uff5c\uff0f",
+            "Bot Status Warning": "\uff3c\uff5c\uff0f\u7121\u6cd5\u7372\u53d6\u72c0\u614b\uff3c\uff5c\uff0f"
         }
     ],
     "Server 3": [
@@ -129,50 +379,175 @@
             "Server Icon": "https://cdn.discordapp.com/icons/892799334289145896/897ce4609c73b5431471ce6b24593b7b.png?size=4096",
             "Message Title": "\u5730\u4e0b\u8857 UDGC \u4f3a\u670d\u5668 \u300a Server #3 \u300b \u5be6\u6642\u72c0\u614b",
             "Server Description": "Underground City Live Status",
-            "Last Updated": "此資料上次更新時間 %Time% • Last updated %Time% (UTC+8)",
-            "Separate line": "＝＝＝＝＝＝＝＝＝＝＝",
-            "Status": [true ,"狀態－Status", "狀態", "Status"],
-            "Status Started": ["已正常啟動", "Server started"],
-            "Status Closed": ["伺服器已關閉", "Server is down"],
-            "Status Warning": ["無法取得狀態", "The status cannot be obtained"],
-            "Port": [true ,"伺服器連接埠－Server Port", "伺服器連接埠", "Server Port"],
-            "Port Started": ["%Port%", "%Port%"],
-            "Port Closed": ["%Port%", "%Port%"],
-            "Port Warning": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"],
-            "Players": [true ,"目前人數－Players", "目前人數", "Players"],
-            "Players Started": ["%Players%", "%Players%"],
-            "Players Closed": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"],
-            "Players Warning": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"],
-            "Version": [true ,"版本－Version", "版本", "Version"],
-            "Version Started": ["%Version%", "%Version%"],
-            "Version Closed": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"],
-            "Version Warning": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"],
-            "Pastebin": [true ,"Pastebin", "Pastebin 連結", "Pastebin Link"],
-            "Pastebin Started": ["[%Pastebin%](https://pastebin.com/%Pastebin%)", "[%Pastebin%](https://pastebin.com/%Pastebin%)"],
-            "Pastebin Closed": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"],
-            "Pastebin Warning": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"],
-            "Infomation": [true ,"詳細信息－Infomation", "詳細信息", "Infomation"],
-            "Infomation Started": ["%FriendlyFire%｜%Whitelist%｜%Modded%", "%FriendlyFire%｜%Whitelist%｜%Modded%"],
-            "Infomation Closed": ["%FriendlyFire%｜%Whitelist%｜%Modded%", "%FriendlyFire%｜%Whitelist%｜%Modded%"],
-            "Infomation Warning": ["%FriendlyFire%｜%Whitelist%｜%Modded%", "%FriendlyFire%｜%Whitelist%｜%Modded%"],
-            "Friendly Fire On": [":o: 同隊傷害", ":o: Friendly Fire"],
-            "Friendly Fire Off": [":x: 同隊傷害", ":x: Friendly Fire"],
-            "Friendly Fire Warning": [":warning: 同隊傷害", ":warning: Friendly Fire"],
-            "Whitelist On": [":o: 白名單", ":o: Whitelist"],
-            "Whitelist Off": [":x: 白名單", ":x: Whitelist"],
-            "Whitelist Warning": [":warning: 白名單", ":warning: Whitelist"],
-            "Modded On": [":o: 插件", ":o: Modded"],
-            "Modded Off": [":x: 插件", ":x: Modded"],
-            "Modded Warning": [":warning: 插件", ":warning: Modded"],
-            "LastOnline": [true ,"最後上線日期－Last Online Date", "最後上線日期", "Last Online Date"],
-            "LastOnline Started": ["%LastOnline%", "%LastOnline%"],
-            "LastOnline Closed": ["%LastOnline%", "%LastOnline%"],
-            "LastOnline Warning": ["[未知](https://www.youtube.com/watch?v=dQw4w9WgXcQ)", "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"]
+            "Last Updated": "\u6b64\u8cc7\u6599\u4e0a\u6b21\u66f4\u65b0\u6642\u9593 %Time% \u2022 Last updated %Time% (UTC+8)",
+            "Separate line": "\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d",
+            "Status": [
+                true,
+                "\u72c0\u614b\uff0dStatus",
+                "\u72c0\u614b",
+                "Status"
+            ],
+            "Status Started": [
+                "\u5df2\u6b63\u5e38\u555f\u52d5",
+                "Server started"
+            ],
+            "Status Closed": [
+                "\u4f3a\u670d\u5668\u5df2\u95dc\u9589",
+                "Server is down"
+            ],
+            "Status Warning": [
+                "\u7121\u6cd5\u53d6\u5f97\u72c0\u614b",
+                "The status cannot be obtained"
+            ],
+            "Port": [
+                true,
+                "\u4f3a\u670d\u5668\u9023\u63a5\u57e0\uff0dServer Port",
+                "\u4f3a\u670d\u5668\u9023\u63a5\u57e0",
+                "Server Port"
+            ],
+            "Port Started": [
+                "%Port%",
+                "%Port%"
+            ],
+            "Port Closed": [
+                "%Port%",
+                "%Port%"
+            ],
+            "Port Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Players": [
+                true,
+                "\u76ee\u524d\u4eba\u6578\uff0dPlayers",
+                "\u76ee\u524d\u4eba\u6578",
+                "Players"
+            ],
+            "Players Started": [
+                "%Players%",
+                "%Players%"
+            ],
+            "Players Closed": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Players Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Version": [
+                true,
+                "\u7248\u672c\uff0dVersion",
+                "\u7248\u672c",
+                "Version"
+            ],
+            "Version Started": [
+                "%Version%",
+                "%Version%"
+            ],
+            "Version Closed": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Version Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Pastebin": [
+                true,
+                "Pastebin",
+                "Pastebin \u9023\u7d50",
+                "Pastebin Link"
+            ],
+            "Pastebin Started": [
+                "[%Pastebin%](https://pastebin.com/%Pastebin%)",
+                "[%Pastebin%](https://pastebin.com/%Pastebin%)"
+            ],
+            "Pastebin Closed": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Pastebin Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Infomation": [
+                true,
+                "\u8a73\u7d30\u4fe1\u606f\uff0dInfomation",
+                "\u8a73\u7d30\u4fe1\u606f",
+                "Infomation"
+            ],
+            "Infomation Started": [
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%",
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%"
+            ],
+            "Infomation Closed": [
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%",
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%"
+            ],
+            "Infomation Warning": [
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%",
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%"
+            ],
+            "Friendly Fire On": [
+                ":o: \u540c\u968a\u50b7\u5bb3",
+                ":o: Friendly Fire"
+            ],
+            "Friendly Fire Off": [
+                ":x: \u540c\u968a\u50b7\u5bb3",
+                ":x: Friendly Fire"
+            ],
+            "Friendly Fire Warning": [
+                ":warning: \u540c\u968a\u50b7\u5bb3",
+                ":warning: Friendly Fire"
+            ],
+            "Whitelist On": [
+                ":o: \u767d\u540d\u55ae",
+                ":o: Whitelist"
+            ],
+            "Whitelist Off": [
+                ":x: \u767d\u540d\u55ae",
+                ":x: Whitelist"
+            ],
+            "Whitelist Warning": [
+                ":warning: \u767d\u540d\u55ae",
+                ":warning: Whitelist"
+            ],
+            "Modded On": [
+                ":o: \u63d2\u4ef6",
+                ":o: Modded"
+            ],
+            "Modded Off": [
+                ":x: \u63d2\u4ef6",
+                ":x: Modded"
+            ],
+            "Modded Warning": [
+                ":warning: \u63d2\u4ef6",
+                ":warning: Modded"
+            ],
+            "LastOnline": [
+                true,
+                "\u6700\u5f8c\u4e0a\u7dda\u65e5\u671f\uff0dLast Online Date",
+                "\u6700\u5f8c\u4e0a\u7dda\u65e5\u671f",
+                "Last Online Date"
+            ],
+            "LastOnline Started": [
+                "%LastOnline%",
+                "%LastOnline%"
+            ],
+            "LastOnline Closed": [
+                "%LastOnline%",
+                "%LastOnline%"
+            ],
+            "LastOnline Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ]
         },
         {
             "Bot Status Started": "%Players%",
-            "Bot Status Closed": "＼｜／伺服器已關閉＼｜／",
-            "Bot Status Warning": "＼｜／無法獲取狀態＼｜／"
+            "Bot Status Closed": "\uff3c\uff5c\uff0f\u4f3a\u670d\u5668\u5df2\u95dc\u9589\uff3c\uff5c\uff0f",
+            "Bot Status Warning": "\uff3c\uff5c\uff0f\u7121\u6cd5\u7372\u53d6\u72c0\u614b\uff3c\uff5c\uff0f"
         }
     ],
     "Do not change this": {
@@ -183,7 +558,7 @@
                 "ID": 48905,
                 "Port": 7777,
                 "Online": true,
-                "LastOnline": "2021-11-01",
+                "LastOnline": "2021-11-02",
                 "Players": "0/35",
                 "PlayersList": [],
                 "Info": "W0hLXSA8Y29sb3I9I2Q2ZmFmZj7lnLDkuIvooZfkvLrmnI3lmaggIzHvvZw8L2NvbG9yPjxjb2xvcj0jNTRlOGZmPmQ8L2NvbG9yPjxjb2xvcj0jMDBlMGZmPmk8L2NvbG9yPjxjb2xvcj0jMDBkN2ZmPnM8L2NvbG9yPjxjb2xvcj0jMDBjZWZmPmM8L2NvbG9yPjxjb2xvcj0jMDBjNGZmPm88L2NvbG9yPjxjb2xvcj0jMDBiYmZmPnI8L2NvbG9yPjxjb2xvcj0jMDBiM2ZmPmQuPC9jb2xvcj48Y29sb3I9IzAwYjBmZj5nPC9jb2xvcj48Y29sb3I9IzAwYTZmZj5nLzwvY29sb3I+PGNvbG9yPSMwMDlhZmY+djwvY29sb3I+PGNvbG9yPSMwMDhlZmY+QzwvY29sb3I+PGNvbG9yPSMwMDg0ZmY+VDwvY29sb3I+PGNvbG9yPSMwMDgyZmY+dDwvY29sb3I+PGNvbG9yPSMwMDc0ZmY+SzwvY29sb3I+PGNvbG9yPSMwMDY0ZmY+YTwvY29sb3I+PGNvbG9yPSMwMDUyZmY+ejwvY29sb3I+PGNvbG9yPSMwMDQ0ZmY+cDwvY29sb3I+PGNvbG9yPSMwMDNjZmY+WjwvY29sb3I+PGNvbG9yPSMwMDMzZmY+ejwvY29sb3I+PGNvbG9yPSMwMDAwMDAwMD48c2l6ZT0xPkV4aWxlZCAzLjMuMTwvc2l6ZT48L2NvbG9yPg==",
@@ -209,5 +584,6 @@
                 "LastOnline": "2021-10-30"
             }
         ]
-    }
+    },
+    "Last Update Time": "2021-11-02 21:48:27"
 }
