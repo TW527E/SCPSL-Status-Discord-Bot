@@ -1,10 +1,10 @@
 {
-    "API Token": "yC7uud%2F7uuQNNNLJOOZmYRxS",
-    "Account ID": "19783",
+    "API Token": "SkVe5VNQgtv2gl8wUBpbiUtZ",
+    "Account ID": "20128",
     "Server 1": [
         {
             "Discord Bot Token": "Nzg5ODA5OTI5NzYyMjQyNTgw.X93d0Q.TmYiOF9f2mDDqjWxBTcPP6Zc2Yc",
-            "Server Codename": 0,
+            "Server Codename": 1,
             "Message Guild ID": 892799334289145896,
             "Message Channel ID": 903951479252062238,
             "Message ID": 904372374554681394
@@ -187,7 +187,7 @@
     "Server 2": [
         {
             "Discord Bot Token": "Nzg5ODA5OTY0NjkyNjY4NDU2.X93d2Q.tZWbLjX2VLY5jJoGKeoW9bcp5DA",
-            "Server Codename": 1,
+            "Server Codename": 6,
             "Message Guild ID": 892799334289145896,
             "Message Channel ID": 903951505512616007,
             "Message ID": 904198872602144788
@@ -370,7 +370,7 @@
     "Server 3": [
         {
             "Discord Bot Token": "Nzg5ODEwMzU2NzA4MzExMDUw.X93eNw.5dDvMsviXYsRurr8zlxEVTlpqUk",
-            "Server Codename": 2,
+            "Server Codename": 5,
             "Message Guild ID": 892799334289145896,
             "Message Channel ID": 903951533866098698,
             "Message ID": 904198890771869717
@@ -550,19 +550,615 @@
             "Bot Status Warning": "\uff3c\uff5c\uff0f\u7121\u6cd5\u7372\u53d6\u72c0\u614b\uff3c\uff5c\uff0f"
         }
     ],
+    "Server 4": [
+        {
+            "Discord Bot Token": "Nzg5ODEwNTU2NDc5NDcxNjU2.X93eZg.J5m0rl0KUcbqlKqm0uy5o1nhSYo",
+            "Server Codename": 4,
+            "Message Guild ID": 892799334289145896,
+            "Message Channel ID": 922026012320079892,
+            "Message ID": 922029129015132210
+        },
+        {
+            "Server Icon": "https://cdn.discordapp.com/icons/892799334289145896/897ce4609c73b5431471ce6b24593b7b.png?size=4096",
+            "Message Title": "\u5730\u4e0b\u8857 UDGC \u4f3a\u670d\u5668 \u300a Server #1 \u300b \u5be6\u6642\u72c0\u614b",
+            "Server Description": "Underground City Live Status",
+            "Last Updated": "\u6b64\u8cc7\u6599\u4e0a\u6b21\u66f4\u65b0\u6642\u9593 %Time% \u2022 Last updated %Time% (UTC+8)",
+            "Separate line": "\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d",
+            "Status": [
+                true,
+                "\u72c0\u614b\uff0dStatus",
+                "\u72c0\u614b",
+                "Status"
+            ],
+            "Status Started": [
+                "\u5df2\u6b63\u5e38\u555f\u52d5",
+                "Server started"
+            ],
+            "Status Closed": [
+                "\u4f3a\u670d\u5668\u5df2\u95dc\u9589",
+                "Server is down"
+            ],
+            "Status Warning": [
+                "\u7121\u6cd5\u53d6\u5f97\u72c0\u614b",
+                "The status cannot be obtained"
+            ],
+            "Port": [
+                true,
+                "\u4f3a\u670d\u5668\u9023\u63a5\u57e0\uff0dServer Port",
+                "\u4f3a\u670d\u5668\u9023\u63a5\u57e0",
+                "Server Port"
+            ],
+            "Port Started": [
+                "%Port%",
+                "%Port%"
+            ],
+            "Port Closed": [
+                "%Port%",
+                "%Port%"
+            ],
+            "Port Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Players": [
+                true,
+                "\u76ee\u524d\u4eba\u6578\uff0dPlayers",
+                "\u76ee\u524d\u4eba\u6578",
+                "Players"
+            ],
+            "Players Started": [
+                "%Players%",
+                "%Players%"
+            ],
+            "Players Closed": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Players Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Version": [
+                true,
+                "\u7248\u672c\uff0dVersion",
+                "\u7248\u672c",
+                "Version"
+            ],
+            "Version Started": [
+                "%Version%",
+                "%Version%"
+            ],
+            "Version Closed": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Version Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Pastebin": [
+                true,
+                "Pastebin",
+                "Pastebin \u9023\u7d50",
+                "Pastebin Link"
+            ],
+            "Pastebin Started": [
+                "[%Pastebin%](https://pastebin.com/%Pastebin%)",
+                "[%Pastebin%](https://pastebin.com/%Pastebin%)"
+            ],
+            "Pastebin Closed": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Pastebin Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Infomation": [
+                true,
+                "\u8a73\u7d30\u4fe1\u606f\uff0dInfomation",
+                "\u8a73\u7d30\u4fe1\u606f",
+                "Infomation"
+            ],
+            "Infomation Started": [
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%",
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%"
+            ],
+            "Infomation Closed": [
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%",
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%"
+            ],
+            "Infomation Warning": [
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%",
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%"
+            ],
+            "Friendly Fire On": [
+                ":o: \u540c\u968a\u50b7\u5bb3",
+                ":o: Friendly Fire"
+            ],
+            "Friendly Fire Off": [
+                ":x: \u540c\u968a\u50b7\u5bb3",
+                ":x: Friendly Fire"
+            ],
+            "Friendly Fire Warning": [
+                ":warning: \u540c\u968a\u50b7\u5bb3",
+                ":warning: Friendly Fire"
+            ],
+            "Whitelist On": [
+                ":o: \u767d\u540d\u55ae",
+                ":o: Whitelist"
+            ],
+            "Whitelist Off": [
+                ":x: \u767d\u540d\u55ae",
+                ":x: Whitelist"
+            ],
+            "Whitelist Warning": [
+                ":warning: \u767d\u540d\u55ae",
+                ":warning: Whitelist"
+            ],
+            "Modded On": [
+                ":o: \u63d2\u4ef6",
+                ":o: Modded"
+            ],
+            "Modded Off": [
+                ":x: \u63d2\u4ef6",
+                ":x: Modded"
+            ],
+            "Modded Warning": [
+                ":warning: \u63d2\u4ef6",
+                ":warning: Modded"
+            ],
+            "LastOnline": [
+                true,
+                "\u6700\u5f8c\u4e0a\u7dda\u65e5\u671f\uff0dLast Online Date",
+                "\u6700\u5f8c\u4e0a\u7dda\u65e5\u671f",
+                "Last Online Date"
+            ],
+            "LastOnline Started": [
+                "%LastOnline%",
+                "%LastOnline%"
+            ],
+            "LastOnline Closed": [
+                "%LastOnline%",
+                "%LastOnline%"
+            ],
+            "LastOnline Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ]
+        },
+        {
+            "Bot Status Started": "%Players%",
+            "Bot Status Closed": "\uff3c\uff5c\uff0f\u4f3a\u670d\u5668\u5df2\u95dc\u9589\uff3c\uff5c\uff0f",
+            "Bot Status Warning": "\uff3c\uff5c\uff0f\u7121\u6cd5\u7372\u53d6\u72c0\u614b\uff3c\uff5c\uff0f"
+        }
+    ],
+    "Server 5": [
+        {
+            "Discord Bot Token": "OTIyMDIxMTY5OTA4MDM5NzEx.Yb7ZIQ.3BlsJNKFlLoS1GUeAztNQlI1TDE",
+            "Server Codename": 3,
+            "Message Guild ID": 892799334289145896,
+            "Message Channel ID": 922026040514207765,
+            "Message ID": 922029123784806471
+        },
+        {
+            "Server Icon": "https://cdn.discordapp.com/icons/892799334289145896/897ce4609c73b5431471ce6b24593b7b.png?size=4096",
+            "Message Title": "\u5730\u4e0b\u8857 UDGC \u4f3a\u670d\u5668 \u300a Server #5 \u300b \u5be6\u6642\u72c0\u614b",
+            "Server Description": "Underground City Live Status",
+            "Last Updated": "\u6b64\u8cc7\u6599\u4e0a\u6b21\u66f4\u65b0\u6642\u9593 %Time% \u2022 Last updated %Time% (UTC+8)",
+            "Separate line": "\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d",
+            "Status": [
+                true,
+                "\u72c0\u614b\uff0dStatus",
+                "\u72c0\u614b",
+                "Status"
+            ],
+            "Status Started": [
+                "\u5df2\u6b63\u5e38\u555f\u52d5",
+                "Server started"
+            ],
+            "Status Closed": [
+                "\u4f3a\u670d\u5668\u5df2\u95dc\u9589",
+                "Server is down"
+            ],
+            "Status Warning": [
+                "\u7121\u6cd5\u53d6\u5f97\u72c0\u614b",
+                "The status cannot be obtained"
+            ],
+            "Port": [
+                true,
+                "\u4f3a\u670d\u5668\u9023\u63a5\u57e0\uff0dServer Port",
+                "\u4f3a\u670d\u5668\u9023\u63a5\u57e0",
+                "Server Port"
+            ],
+            "Port Started": [
+                "%Port%",
+                "%Port%"
+            ],
+            "Port Closed": [
+                "%Port%",
+                "%Port%"
+            ],
+            "Port Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Players": [
+                true,
+                "\u76ee\u524d\u4eba\u6578\uff0dPlayers",
+                "\u76ee\u524d\u4eba\u6578",
+                "Players"
+            ],
+            "Players Started": [
+                "%Players%",
+                "%Players%"
+            ],
+            "Players Closed": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Players Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Version": [
+                true,
+                "\u7248\u672c\uff0dVersion",
+                "\u7248\u672c",
+                "Version"
+            ],
+            "Version Started": [
+                "%Version%",
+                "%Version%"
+            ],
+            "Version Closed": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Version Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Pastebin": [
+                true,
+                "Pastebin",
+                "Pastebin \u9023\u7d50",
+                "Pastebin Link"
+            ],
+            "Pastebin Started": [
+                "[%Pastebin%](https://pastebin.com/%Pastebin%)",
+                "[%Pastebin%](https://pastebin.com/%Pastebin%)"
+            ],
+            "Pastebin Closed": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Pastebin Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Infomation": [
+                true,
+                "\u8a73\u7d30\u4fe1\u606f\uff0dInfomation",
+                "\u8a73\u7d30\u4fe1\u606f",
+                "Infomation"
+            ],
+            "Infomation Started": [
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%",
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%"
+            ],
+            "Infomation Closed": [
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%",
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%"
+            ],
+            "Infomation Warning": [
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%",
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%"
+            ],
+            "Friendly Fire On": [
+                ":o: \u540c\u968a\u50b7\u5bb3",
+                ":o: Friendly Fire"
+            ],
+            "Friendly Fire Off": [
+                ":x: \u540c\u968a\u50b7\u5bb3",
+                ":x: Friendly Fire"
+            ],
+            "Friendly Fire Warning": [
+                ":warning: \u540c\u968a\u50b7\u5bb3",
+                ":warning: Friendly Fire"
+            ],
+            "Whitelist On": [
+                ":o: \u767d\u540d\u55ae",
+                ":o: Whitelist"
+            ],
+            "Whitelist Off": [
+                ":x: \u767d\u540d\u55ae",
+                ":x: Whitelist"
+            ],
+            "Whitelist Warning": [
+                ":warning: \u767d\u540d\u55ae",
+                ":warning: Whitelist"
+            ],
+            "Modded On": [
+                ":o: \u63d2\u4ef6",
+                ":o: Modded"
+            ],
+            "Modded Off": [
+                ":x: \u63d2\u4ef6",
+                ":x: Modded"
+            ],
+            "Modded Warning": [
+                ":warning: \u63d2\u4ef6",
+                ":warning: Modded"
+            ],
+            "LastOnline": [
+                true,
+                "\u6700\u5f8c\u4e0a\u7dda\u65e5\u671f\uff0dLast Online Date",
+                "\u6700\u5f8c\u4e0a\u7dda\u65e5\u671f",
+                "Last Online Date"
+            ],
+            "LastOnline Started": [
+                "%LastOnline%",
+                "%LastOnline%"
+            ],
+            "LastOnline Closed": [
+                "%LastOnline%",
+                "%LastOnline%"
+            ],
+            "LastOnline Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ]
+        },
+        {
+            "Bot Status Started": "%Players%",
+            "Bot Status Closed": "\uff3c\uff5c\uff0f\u4f3a\u670d\u5668\u5df2\u95dc\u9589\uff3c\uff5c\uff0f",
+            "Bot Status Warning": "\uff3c\uff5c\uff0f\u7121\u6cd5\u7372\u53d6\u72c0\u614b\uff3c\uff5c\uff0f"
+        }
+    ],
+    "Server 6": [
+        {
+            "Discord Bot Token": "OTIyMDIxMzI5NjE4NzM5MjEx.Yb7ZRw.Hy_y8VWyGnUFYy5lw_0TxYBGBNQ",
+            "Server Codename": 2,
+            "Message Guild ID": 892799334289145896,
+            "Message Channel ID": 922026062450425866,
+            "Message ID": 922029121402470411
+        },
+        {
+            "Server Icon": "https://cdn.discordapp.com/icons/892799334289145896/897ce4609c73b5431471ce6b24593b7b.png?size=4096",
+            "Message Title": "\u5730\u4e0b\u8857 UDGC \u4f3a\u670d\u5668 \u300a Server #6 \u300b \u5be6\u6642\u72c0\u614b",
+            "Server Description": "Underground City Live Status",
+            "Last Updated": "\u6b64\u8cc7\u6599\u4e0a\u6b21\u66f4\u65b0\u6642\u9593 %Time% \u2022 Last updated %Time% (UTC+8)",
+            "Separate line": "\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d\uff1d",
+            "Status": [
+                true,
+                "\u72c0\u614b\uff0dStatus",
+                "\u72c0\u614b",
+                "Status"
+            ],
+            "Status Started": [
+                "\u5df2\u6b63\u5e38\u555f\u52d5",
+                "Server started"
+            ],
+            "Status Closed": [
+                "\u4f3a\u670d\u5668\u5df2\u95dc\u9589",
+                "Server is down"
+            ],
+            "Status Warning": [
+                "\u7121\u6cd5\u53d6\u5f97\u72c0\u614b",
+                "The status cannot be obtained"
+            ],
+            "Port": [
+                true,
+                "\u4f3a\u670d\u5668\u9023\u63a5\u57e0\uff0dServer Port",
+                "\u4f3a\u670d\u5668\u9023\u63a5\u57e0",
+                "Server Port"
+            ],
+            "Port Started": [
+                "%Port%",
+                "%Port%"
+            ],
+            "Port Closed": [
+                "%Port%",
+                "%Port%"
+            ],
+            "Port Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Players": [
+                true,
+                "\u76ee\u524d\u4eba\u6578\uff0dPlayers",
+                "\u76ee\u524d\u4eba\u6578",
+                "Players"
+            ],
+            "Players Started": [
+                "%Players%",
+                "%Players%"
+            ],
+            "Players Closed": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Players Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Version": [
+                true,
+                "\u7248\u672c\uff0dVersion",
+                "\u7248\u672c",
+                "Version"
+            ],
+            "Version Started": [
+                "%Version%",
+                "%Version%"
+            ],
+            "Version Closed": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Version Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Pastebin": [
+                true,
+                "Pastebin",
+                "Pastebin \u9023\u7d50",
+                "Pastebin Link"
+            ],
+            "Pastebin Started": [
+                "[%Pastebin%](https://pastebin.com/%Pastebin%)",
+                "[%Pastebin%](https://pastebin.com/%Pastebin%)"
+            ],
+            "Pastebin Closed": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Pastebin Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ],
+            "Infomation": [
+                true,
+                "\u8a73\u7d30\u4fe1\u606f\uff0dInfomation",
+                "\u8a73\u7d30\u4fe1\u606f",
+                "Infomation"
+            ],
+            "Infomation Started": [
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%",
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%"
+            ],
+            "Infomation Closed": [
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%",
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%"
+            ],
+            "Infomation Warning": [
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%",
+                "%FriendlyFire%\uff5c%Whitelist%\uff5c%Modded%"
+            ],
+            "Friendly Fire On": [
+                ":o: \u540c\u968a\u50b7\u5bb3",
+                ":o: Friendly Fire"
+            ],
+            "Friendly Fire Off": [
+                ":x: \u540c\u968a\u50b7\u5bb3",
+                ":x: Friendly Fire"
+            ],
+            "Friendly Fire Warning": [
+                ":warning: \u540c\u968a\u50b7\u5bb3",
+                ":warning: Friendly Fire"
+            ],
+            "Whitelist On": [
+                ":o: \u767d\u540d\u55ae",
+                ":o: Whitelist"
+            ],
+            "Whitelist Off": [
+                ":x: \u767d\u540d\u55ae",
+                ":x: Whitelist"
+            ],
+            "Whitelist Warning": [
+                ":warning: \u767d\u540d\u55ae",
+                ":warning: Whitelist"
+            ],
+            "Modded On": [
+                ":o: \u63d2\u4ef6",
+                ":o: Modded"
+            ],
+            "Modded Off": [
+                ":x: \u63d2\u4ef6",
+                ":x: Modded"
+            ],
+            "Modded Warning": [
+                ":warning: \u63d2\u4ef6",
+                ":warning: Modded"
+            ],
+            "LastOnline": [
+                true,
+                "\u6700\u5f8c\u4e0a\u7dda\u65e5\u671f\uff0dLast Online Date",
+                "\u6700\u5f8c\u4e0a\u7dda\u65e5\u671f",
+                "Last Online Date"
+            ],
+            "LastOnline Started": [
+                "%LastOnline%",
+                "%LastOnline%"
+            ],
+            "LastOnline Closed": [
+                "%LastOnline%",
+                "%LastOnline%"
+            ],
+            "LastOnline Warning": [
+                "[\u672a\u77e5](https://www.youtube.com/watch?v=dQw4w9WgXcQ)",
+                "[Unknown](https://www.youtube.com/watch?v=dQw4w9WgXcQ)"
+            ]
+        },
+        {
+            "Bot Status Started": "%Players%",
+            "Bot Status Closed": "\uff3c\uff5c\uff0f\u4f3a\u670d\u5668\u5df2\u95dc\u9589\uff3c\uff5c\uff0f",
+            "Bot Status Warning": "\uff3c\uff5c\uff0f\u7121\u6cd5\u7372\u53d6\u72c0\u614b\uff3c\uff5c\uff0f"
+        }
+    ],
     "Do not change this": {
         "Success": true,
         "Cooldown": 24,
         "Servers": [
             {
-                "ID": 48905,
+                "ID": 50223,
                 "Port": 7777,
+                "Online": false,
+                "LastOnline": "2021-12-19"
+            },
+            {
+                "ID": 50305,
+                "Port": 7700,
                 "Online": true,
-                "LastOnline": "2021-11-19",
-                "Players": "0/35",
+                "LastOnline": "2022-01-02",
+                "Players": "0/30",
                 "PlayersList": [],
-                "Info": "W0hLXSA8Y29sb3I9I2Q2ZmFmZj7lnLDkuIvooZfkvLrmnI3lmaggIzHvvZw8L2NvbG9yPjxjb2xvcj0jNTRlOGZmPmQ8L2NvbG9yPjxjb2xvcj0jMDBlMGZmPmk8L2NvbG9yPjxjb2xvcj0jMDBkN2ZmPnM8L2NvbG9yPjxjb2xvcj0jMDBjZWZmPmM8L2NvbG9yPjxjb2xvcj0jMDBjNGZmPm88L2NvbG9yPjxjb2xvcj0jMDBiYmZmPnI8L2NvbG9yPjxjb2xvcj0jMDBiM2ZmPmQuPC9jb2xvcj48Y29sb3I9IzAwYjBmZj5nPC9jb2xvcj48Y29sb3I9IzAwYTZmZj5nLzwvY29sb3I+PGNvbG9yPSMwMDlhZmY+djwvY29sb3I+PGNvbG9yPSMwMDhlZmY+QzwvY29sb3I+PGNvbG9yPSMwMDg0ZmY+VDwvY29sb3I+PGNvbG9yPSMwMDgyZmY+dDwvY29sb3I+PGNvbG9yPSMwMDc0ZmY+SzwvY29sb3I+PGNvbG9yPSMwMDY0ZmY+YTwvY29sb3I+PGNvbG9yPSMwMDUyZmY+ejwvY29sb3I+PGNvbG9yPSMwMDQ0ZmY+cDwvY29sb3I+PGNvbG9yPSMwMDNjZmY+WjwvY29sb3I+PGNvbG9yPSMwMDMzZmY+ejwvY29sb3I+PGNvbG9yPSMwMDAwMDAwMD48c2l6ZT0xPkV4aWxlZCAzLjcuMjwvc2l6ZT48L2NvbG9yPg==",
-                "Version": "11.0.0",
+                "Info": "W0hLXSA8Y29sb3I9IzczNzBmZj7lnLDkuIvooZc8L2NvbG9yPjxjb2xvcj0jNWQ1YWU4PuS8uuacjeWZqDwvY29sb3I+IC8gPGNvbG9yPSM5OUZGRkY+57SU5YeA5pyNPC9jb2xvcj4gLyA8Y29sb3I9I0ZGMjIwMD4yMDIyIOaWsOW5tOW/q+aogjwvY29sb3I+IAogPGNvbG9yPSM5OWZmMzM+5LiA5pyNPC9jb2xvcj4gPGNvbG9yPSNDQzk5RkY+RGlzY29yZDogZGlzY29yZC5nZy92Q1R0S2F6cFp6PC9jb2xvcj48Y29sb3I9IzAwMDAwMDAwPjxzaXplPTE+RXhpbGVkIDQuMi4yPC9zaXplPjwvY29sb3I+",
+                "Version": "11.1.0",
+                "Pastebin": "2ugXuz6e",
+                "FF": false,
+                "WL": false,
+                "Modded": true,
+                "Mods": 0,
+                "Suppress": 0,
+                "AutoSuppress": false
+            },
+            {
+                "ID": 50306,
+                "Port": 12900,
+                "Online": false,
+                "LastOnline": "2021-12-25"
+            },
+            {
+                "ID": 50307,
+                "Port": 11900,
+                "Online": false,
+                "LastOnline": "2021-12-25"
+            },
+            {
+                "ID": 50308,
+                "Port": 10900,
+                "Online": false,
+                "LastOnline": "2021-12-25"
+            },
+            {
+                "ID": 50309,
+                "Port": 9900,
+                "Online": false,
+                "LastOnline": "2021-12-25"
+            },
+            {
+                "ID": 50310,
+                "Port": 8700,
+                "Online": true,
+                "LastOnline": "2022-01-02",
+                "Players": "0/30",
+                "PlayersList": [],
+                "Info": "W0hLXSA8Y29sb3I9IzczNzBmZj7lnLDkuIvooZc8L2NvbG9yPjxjb2xvcj0jNWQ1YWU4PuS8uuacjeWZqDwvY29sb3I+IC8gPGNvbG9yPSM5OUZGRkY+5o+S5Lu25pyNPC9jb2xvcj4gLyA8Y29sb3I9I0ZGRDcwMD4yMDIyIOaWsOW5tOW/q+aogjwvY29sb3I+IAogPGNvbG9yPSM5OWZmMzM+IzI8L2NvbG9yPiA8Y29sb3I9I0NDOTlGRj5EaXNjb3JkOiBkaXNjb3JkLmdnL3ZDVHRLYXpwWno8L2NvbG9yPjxjb2xvcj0jMDAwMDAwMDA+PHNpemU9MT5FeGlsZWQgNC4yLjI8L3NpemU+PC9jb2xvcj4=",
+                "Version": "11.1.0",
                 "Pastebin": "2ugXuz6e",
                 "FF": false,
                 "WL": false,
@@ -573,5 +1169,5 @@
             }
         ]
     },
-    "Last Update Time": "2021-11-19 19:34:15"
+    "Last Update Time": "2022-01-02 14:00:38"
 }
