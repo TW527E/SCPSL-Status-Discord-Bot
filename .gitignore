@@ -1,0 +1,20 @@
+# 本機敏感資料與環境設定
+.env
+.env.*
+!.env.example
+
+# 實際運行設定與伺服器資料；只提交 example 檔
+setting.json
+settings.json
+data/*.json
+!data/*.example.json
+
+# 舊版備份/測試檔，曾放過實際設定或 token
+Old/
+nothing.py
+
+# Python / virtualenv 快取
+.venv/
+venv/
+__pycache__/
+*.py[cod]

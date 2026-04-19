@@ -1,0 +1,25 @@
+{
+  "description": "SCPSL 伺服器狀態 Discord 多機器人設定範例。敏感資料放在 .env，每台伺服器的畫面與訊息資料放在 data/*.json。",
+  "timezone": "Asia/Taipei",
+  "fallback_cooldown_seconds": 24,
+  "footer_text": "Made by YourName",
+  "owner_id": 123456789012345678,
+  "api": {
+    "base_url": "https://api.scpslgame.com/serverinfo.php",
+    "token_env": "SCPSL_API_TOKEN",
+    "account_id_env": "SCPSL_ACCOUNT_ID",
+    "cache_file": "scpsl_status_cache.json"
+  },
+  "bots": [
+    {
+      "key": "server_1",
+      "name": "Server #1",
+      "token_env": "DISCORD_BOT_TOKEN_1",
+      "data_file": "server_1.json",
+      "sync_guild_ids": [
+        123456789012345678
+      ],
+      "enabled": true
+    }
+  ]
+}

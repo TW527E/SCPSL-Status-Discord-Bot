@@ -1,0 +1,182 @@
+{
+  "server_codename": 0,
+  "message": {
+    "guild_id": 123456789012345678,
+    "channel_id": 123456789012345678,
+    "message_id": 123456789012345678
+  },
+  "embed": {
+    "Server Icon": "https://example.com/server-icon.png",
+    "Message Title": "Example SCPSL Server Status",
+    "Server Description": "Live server status",
+    "Last Updated": "Last updated %Time% (UTC+8)",
+    "Separate line": "----------",
+    "Status": [
+      true,
+      "Status",
+      "狀態",
+      "Status"
+    ],
+    "Status Started": [
+      "已正常啟動",
+      "Server started"
+    ],
+    "Status Closed": [
+      "伺服器已關閉",
+      "Server is down"
+    ],
+    "Status Warning": [
+      "無法取得狀態",
+      "Status unavailable"
+    ],
+    "Port": [
+      true,
+      "Server Port",
+      "連接埠",
+      "Port"
+    ],
+    "Port Started": [
+      "%Port%",
+      "%Port%"
+    ],
+    "Port Closed": [
+      "%Port%",
+      "%Port%"
+    ],
+    "Port Warning": [
+      "未知",
+      "Unknown"
+    ],
+    "Players": [
+      true,
+      "Players",
+      "目前人數",
+      "Players"
+    ],
+    "Players Started": [
+      "%Players%",
+      "%Players%"
+    ],
+    "Players Closed": [
+      "未知",
+      "Unknown"
+    ],
+    "Players Warning": [
+      "未知",
+      "Unknown"
+    ],
+    "Version": [
+      true,
+      "Version",
+      "版本",
+      "Version"
+    ],
+    "Version Started": [
+      "%Version%",
+      "%Version%"
+    ],
+    "Version Closed": [
+      "未知",
+      "Unknown"
+    ],
+    "Version Warning": [
+      "未知",
+      "Unknown"
+    ],
+    "Pastebin": [
+      true,
+      "Pastebin",
+      "Pastebin 連結",
+      "Pastebin Link"
+    ],
+    "Pastebin Started": [
+      "[%Pastebin%](https://pastebin.com/%Pastebin%)",
+      "[%Pastebin%](https://pastebin.com/%Pastebin%)"
+    ],
+    "Pastebin Closed": [
+      "未知",
+      "Unknown"
+    ],
+    "Pastebin Warning": [
+      "未知",
+      "Unknown"
+    ],
+    "Infomation": [
+      true,
+      "Information",
+      "詳細資訊",
+      "Information"
+    ],
+    "Infomation Started": [
+      "%FriendlyFire% | %Whitelist% | %Modded%",
+      "%FriendlyFire% | %Whitelist% | %Modded%"
+    ],
+    "Infomation Closed": [
+      "%FriendlyFire% | %Whitelist% | %Modded%",
+      "%FriendlyFire% | %Whitelist% | %Modded%"
+    ],
+    "Infomation Warning": [
+      "%FriendlyFire% | %Whitelist% | %Modded%",
+      "%FriendlyFire% | %Whitelist% | %Modded%"
+    ],
+    "Friendly Fire On": [
+      "開啟同隊傷害",
+      "Friendly Fire on"
+    ],
+    "Friendly Fire Off": [
+      "關閉同隊傷害",
+      "Friendly Fire off"
+    ],
+    "Friendly Fire Warning": [
+      "同隊傷害未知",
+      "Friendly Fire unknown"
+    ],
+    "Whitelist On": [
+      "開啟白名單",
+      "Whitelist on"
+    ],
+    "Whitelist Off": [
+      "關閉白名單",
+      "Whitelist off"
+    ],
+    "Whitelist Warning": [
+      "白名單未知",
+      "Whitelist unknown"
+    ],
+    "Modded On": [
+      "已安裝插件",
+      "Modded"
+    ],
+    "Modded Off": [
+      "未安裝插件",
+      "Not modded"
+    ],
+    "Modded Warning": [
+      "插件狀態未知",
+      "Modded status unknown"
+    ],
+    "LastOnline": [
+      true,
+      "Last Online Date",
+      "最後上線日期",
+      "Last Online Date"
+    ],
+    "LastOnline Started": [
+      "%LastOnline%",
+      "%LastOnline%"
+    ],
+    "LastOnline Closed": [
+      "%LastOnline%",
+      "%LastOnline%"
+    ],
+    "LastOnline Warning": [
+      "未知",
+      "Unknown"
+    ]
+  },
+  "presence": {
+    "Bot Status Started": "%Players%",
+    "Bot Status Closed": "伺服器已關閉",
+    "Bot Status Warning": "無法獲取狀態"
+  }
+}
